@@ -55,7 +55,9 @@ const Highlight = () => {
                             data-aos-delay="200"
                             data-aos-duration="1000"
                         >
-                            <h2>Previous Year Highlights</h2>
+                            
+                        <h4>Biggest Host</h4>
+                            <h2>Edo in Eko with MC Edo Pikin</h2>
                             <p className="text-lg font-normal text-SlateBlueText dark:text-opacity-80 max-w-404 pt-7 pb-11">
                                 Many variations of passages of Lorem Ipsum available but the
                                 majority have suffered alteration in some form injected humour,
@@ -209,7 +211,8 @@ const Highlight = () => {
                             <iframe
                                 height="400"
                                 className="p-4 md:w-[50rem] w-full"
-                                src="https://www.youtube.com/embed/zzBxZeOTuDw?si=y_4N9SeeNXiSofCG"
+                                src="https://www.youtube.com/embed/R21DVkp952s?si=y_4N9SeeNXiSofCG"
+                                
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen

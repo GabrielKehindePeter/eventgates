@@ -52,7 +52,6 @@ const Testimonials = () => {
                                         width={0}
                                         height={0}
                                         quality={100}
-                                        layout="responsive"
                                         sizes="100vh"
                                         className="w-full h-full"
                                     />
@@ -72,7 +71,6 @@ const Testimonials = () => {
                                                 width={0}
                                                 height={0}
                                                 quality={100}
-                                                layout="responsive"
                                                 sizes="100vh"
                                                 className="!w-16 !h-16 rounded-full"
                                             />
@@ -142,7 +140,6 @@ const Testimonials = () => {
                                         width={0}
                                         height={0}
                                         quality={100}
-                                        layout="responsive"
                                         sizes="100vh"
                                         className="w-full h-full"
                                     />
@@ -162,7 +159,6 @@ const Testimonials = () => {
                                                 width={0}
                                                 height={0}
                                                 quality={100}
-                                                layout="responsive"
                                                 sizes="100vh"
                                                 className="!w-16 !h-16 rounded-full"
                                             />

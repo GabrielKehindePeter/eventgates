@@ -11,9 +11,9 @@ const Hero = () => {
                             data-aos="fade-up"
                             data-aos-delay="200"
                             data-aos-duration="1000"
-                            className="relative z-0  inline-block text-primary text-lg font-bold before:absolute before:content-[''] before:bg-primary/20  before:w-full before:h-2 before:-z-1 dark:before:-z-1 before:bottom-0 mt-10"
+                            className="relative z-0  inline-block text-primary text-lg font-bold before:absolute before:content-[''] before:bg-primary/20  before:w-full before:h-2 before:-z-1 dark:before:-z-1 before:bottom-0 mt-10" id='startDate'
                         >
-                            Starts on 16 June 2024
+                            Number one event host
                         </p>
                         <h1
                             className="py-4"
@@ -21,7 +21,7 @@ const Hero = () => {
                             data-aos-delay="300"
                             data-aos-duration="1000"
                         >
-                            User Experience Conference
+                            Schedule your<br /> event with us
                         </h1>
                         <p
                             data-aos="fade-up"
@@ -29,8 +29,7 @@ const Hero = () => {
                             data-aos-duration="1000"
                             className="text-xl text-SlateBlueText dark:text-opacity-80 font-normal md:pb-14 pb-6"
                         >
-                            We offer you a new generation of task and project management
-                            system. Plan, manage and track.
+                            Planning an event? Schedule with us and enjoy a seamless, well-coordinated, and truly memorable experience. 
                         </p>
                         <div className="flex items-center md:justify-normal lg:justify-center justify-start flex-wrap gap-4">
                             <Link
@@ -72,7 +71,6 @@ const Hero = () => {
                                 width={0}
                                 height={0}
                                 quality={100}
-                                layout="responsive"
                                 sizes="100vh"
                                 className="w-full h-full"
                             />
@@ -90,9 +88,8 @@ const Hero = () => {
                                 width={0}
                                 height={0}
                                 quality={100}
-                                layout="responsive"
                                 sizes="100vh"
-                                className="w-full h-full"
+                                className="w-full h-full rounded-tr-22"
                             />
                             <div className="bg-Aquamarine rounded-22 shadow-hero-box py-4 px-5 absolute top-24 -right-20 xl:inline-block hidden">
                                 <p className="text-lg font-bold text-green-800">Mariya John</p>

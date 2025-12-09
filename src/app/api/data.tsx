@@ -38,21 +38,21 @@ export const speakers = [
 
 export const conferences = [
     {
-        title: "The Conference Construct Millennial",
+        title: "Edo in Eko with MC Edo Pikin 2025",
         profiles: [
             "/images/upcoming/profile-1.png",
             "/images/upcoming/profile-3.png"
         ],
-        speakers: "Reena John & Lorance",
+        speakers: "MC. Edo Pikin",
         buttonText: "Book Ticket",
         buttonLink: "/"
     }, // Profile-1
     {
-        title: "Local Business Global Event",
+        title: "Franchez the funniest man",
         profiles: [
             "/images/upcoming/profile-2.png"
         ],
-        speakers: "Martin Luthar",
+        speakers: "Busy Mouth",
         buttonText: "Book Ticket",
         buttonLink: "/"
     }, // Profile-2
@@ -118,6 +118,16 @@ export const intermissions = [
         title: "Coffee Break",
         image: "/images/upcoming/alarm.svg",  // Path to the coffee break image
         time: "10:00 - 10:30", // Time for the coffee break
+    },
+    {
+        title: "Lunch Time",
+        image: "/images/upcoming/alarm.svg",  // Path to the lunch break image
+        time: "12:30 - 13:30", // Time for the lunch break
+    },
+    {
+        title: "Lunch Time",
+        image: "/images/upcoming/alarm.svg",  // Path to the lunch break image
+        time: "12:30 - 13:30", // Time for the lunch break
     },
     {
         title: "Lunch Time",

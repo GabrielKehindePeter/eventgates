@@ -53,7 +53,40 @@ const YearHighlightSlider = () => {
                         alt="Product"
                         width={0}
                         height={0}
-                        layout="responsive"
+                        
+                        quality={100}
+                        sizes="100vh"
+                        className="rounded-22"
+                    ></Image>
+                    <Link
+                        href="/"
+                        className="bg-white group sm:w-12 w-10 sm:h-12 h-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-2/4 rounded-full shadow-[0_0px_30px_rgba(24,23,23,0.1)] flex items-center justify-center dark:text-black"
+                        onClick={openModal}
+                    >
+                        <svg
+                            fill="currentcolor"
+                            version="1.1"
+                            id="Capa_1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlnsXlink="http://www.w3.org/1999/xlink"
+                            width="800px"
+                            height="800px"
+                            viewBox="0 0 163.861 163.861"
+                            xmlSpace="preserve"
+                            className="bg-no-repeat w-4 h-4 inline-block bg-cover group-hover:text-primary"
+                        >
+                            <g>
+                                <path d="M34.857,3.613C20.084-4.861,8.107,2.081,8.107,19.106v125.637c0,17.042,11.977,23.975,26.75,15.509L144.67,97.275 c14.778-8.477,14.778-22.211,0-30.686L34.857,3.613z" />
+                            </g>
+                        </svg>
+                    </Link>
+                </div>
+                <div className="mt-14 relative">
+                    <Image
+                        src="/images/highlight/slide-1.png"
+                        alt="Product"
+                        width={0}
+                        height={0} 
                         quality={100}
                         sizes="100vh"
                         className="rounded-22"
@@ -87,41 +120,7 @@ const YearHighlightSlider = () => {
                         alt="Product"
                         width={0}
                         height={0}
-                        layout="responsive"
-                        quality={100}
-                        sizes="100vh"
-                        className="rounded-22"
-                    ></Image>
-                    <Link
-                        href="/"
-                        className="bg-white group sm:w-12 w-10 sm:h-12 h-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-2/4 rounded-full shadow-[0_0px_30px_rgba(24,23,23,0.1)] flex items-center justify-center dark:text-black"
-                        onClick={openModal}
-                    >
-                        <svg
-                            fill="currentcolor"
-                            version="1.1"
-                            id="Capa_1"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlnsXlink="http://www.w3.org/1999/xlink"
-                            width="800px"
-                            height="800px"
-                            viewBox="0 0 163.861 163.861"
-                            xmlSpace="preserve"
-                            className="bg-no-repeat w-4 h-4 inline-block bg-cover group-hover:text-primary"
-                        >
-                            <g>
-                                <path d="M34.857,3.613C20.084-4.861,8.107,2.081,8.107,19.106v125.637c0,17.042,11.977,23.975,26.75,15.509L144.67,97.275 c14.778-8.477,14.778-22.211,0-30.686L34.857,3.613z" />
-                            </g>
-                        </svg>
-                    </Link>
-                </div>
-                <div className="mt-14 relative">
-                    <Image
-                        src="/images/highlight/slide-1.png"
-                        alt="Product"
-                        width={0}
-                        height={0}
-                        layout="responsive"
+                        
                         quality={100}
                         sizes="100vh"
                         className="rounded-22"

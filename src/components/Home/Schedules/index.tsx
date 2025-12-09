@@ -25,7 +25,6 @@ const Schedules = () => {
                       width={0}
                       height={0}
                       quality={100}
-                      layout="responsive"
                       sizes="100vh"
                       className={`!w-16 !h-16 rounded-full ${
                         profileIndex !== conference.profiles.length - 1

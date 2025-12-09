@@ -21,17 +21,15 @@ const Conferences = () => {
               data-aos-delay="200"
               data-aos-duration="1000"
             >
-              <h2>Best Online and Offline Conferences</h2>
+              <h2>Events Across Any Venue In The World</h2>
               <p className="text-lg font-normal text-SlateBlueText dark:text-opacity-80 max-w-506 md:pt-9 pt-5 md:pb-14 pb-6">
-                Sometimes by accident, sometimes chunks as necessary making this
-                the first true generator on the Internet. recently with desktop
-                publishing software like Aldus PageMaker
+                Whether you’re hosting a small local event or managing a major international show, you can sell your tickets from anywhere in the world. Our platform gives you the tools to reach a wider audience, promote your event effortlessly, and ensure your tickets get into the hands of the right people.
               </p>
               <Link
                 href="/"
                 className="btn_outline btn-2 hover-outline-slide-down"
               >
-                <span>Upcoming conferences</span>
+                <span>Upcoming Events</span>
               </Link>
             </div>
           </div>
