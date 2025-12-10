@@ -47,14 +47,7 @@ const Upcoming = () => {
                             />
                           ))}
                         </div>
-                        <div>
-                          <p className="text-lg font-normal text-SlateBlueText dark:text-opacity-80">
-                            Speech by
-                          </p>
-                          <p className="text-lg font-medium text-secondary dark:text-white">
-                            {conference.speakers}
-                          </p>
-                        </div>
+                       
                       </div>
                       <div>
                         <Link
@@ -65,8 +58,12 @@ const Upcoming = () => {
                         </Link>
                       </div>
                     </div>
+                    
                   ))}
+                  
                 </div>
+                      <div className="items-center"><center>
+                        <a href="/schedules" className="bg-blue-600 p-3 text-white font-bold rounded-14 hover:bg-black">See All More Events</a></center></div>
               </div>
             </div>
           </div>

@@ -26,7 +26,7 @@ const Conferences = () => {
                 Whether you’re hosting a small local event or managing a major international show, you can sell your tickets from anywhere in the world. Our platform gives you the tools to reach a wider audience, promote your event effortlessly, and ensure your tickets get into the hands of the right people.
               </p>
               <Link
-                href="/"
+                href="/schedules"
                 className="btn_outline btn-2 hover-outline-slide-down"
               >
                 <span>Upcoming Events</span>

@@ -20,7 +20,7 @@ const EventTicket = () => {
                     <div className="flex flex-wrap items-stretch" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                         <div className="bg-primary flex items-center justify-center lg:px-16 px-8 lg:py-0 py-8 lg:rounded-l-22 rounded-t-22 md:rounded-tr-none md:rounded-bl-22 rounded-bl-none md:w-2/4 w-full">
                             <Image
-                                src="/images/event-ticket/ticket.png"
+                                src="/images/event-ticket/flyer4.png"
                                 alt="ticket"
                                 width={0}
                                 height={0}

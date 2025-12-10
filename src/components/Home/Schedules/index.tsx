@@ -34,14 +34,7 @@ const Schedules = () => {
                     />
                   ))}
                 </div>
-                <div>
-                  <p className="text-lg font-normal text-SlateBlueText dark:text-opacity-80">
-                    Speech by
-                  </p>
-                  <p className="text-lg font-medium text-secondary dark:text-white">
-                    {conference.speakers}
-                  </p>
-                </div>
+                 
               </div>
               <div className="lg:min-w-40 min-w-max" >
                 <Link

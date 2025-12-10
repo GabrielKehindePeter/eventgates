@@ -11,7 +11,7 @@ const TicketSection = () => {
                         <div className="flex flex-wrap items-center justify-between md:p-20 p-5">
                             <div className="md:w-2/2 w-full absolute top-0 -left-1 md:block hidden">
                                 <Image
-                                    src="/images/ticket-section/ticket.png"
+                                    src="/images/event-ticket/flyer4.png"
                                     alt="hero"
                                     width={0}
                                     height={0}
@@ -22,7 +22,7 @@ const TicketSection = () => {
                                 />
                             </div>
                             <div className="md:w-2/5 w-full ml-auto lg:text-start text-center">
-                                <p className="sm:text-4xl text-[28px] leading-[2.25rem] font-bold text-white lg:max-w-364 max-w-full pb-9">
+                                <p className="sm:text-4xl text-[28px] leading-[2.25rem] font-bold text-white lg:max-w-364 max-w-full pb-9 pl-4">
                                     Become a Part of the Digital Evolution!
                                 </p>
                                 <Link
