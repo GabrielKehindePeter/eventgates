@@ -29,7 +29,7 @@ export default function HeroWithCard() {
   const grandTotal = subtotalRegular + subtotalVip + subtotalTable;
 
   // Format NGN currency
-  const formatNGN = (value) => {
+  const formatNGN = (value:any) => {
     try {
       return value.toLocaleString('en-NG', { style: 'currency', currency: 'NGN', minimumFractionDigits: 0 });
     } catch {
@@ -47,7 +47,7 @@ export default function HeroWithCard() {
 
   // close on Escape
   useEffect(() => {
-    const onKey = (e) => {
+    const onKey = (e:any) => {
       if (e.key === 'Escape') setModalOpen(false);
     };
     document.addEventListener('keydown', onKey);

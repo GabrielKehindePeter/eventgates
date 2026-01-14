@@ -10,8 +10,8 @@ const EventTicket = () => {
                     <div className="text-center md:pb-20 pb-8">
                         <h2 className="pb-8" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Lagos 2025 Developers Festiver/Get-Together</h2>
                         <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" className="text-SlateBlueText dark:text-opacity-80 text-lg font-normal max-w-920 m-auto">
-                            Connect, collaborate, and grow!
-Join top developers, engineers, and tech enthusiasts from across Nigeria for an unforgettable evening of learning, innovation, and community. The Lagos 2025 Developers Get-Together brings you inspiring tech conversations, real-world insights, hands-on experiences, and powerful networking opportunities that can shape your next big move.
+                        Connect, collaborate, and grow!
+                        Join top developers, engineers, and tech enthusiasts from across Nigeria for an unforgettable evening of learning, innovation, and community. The Lagos 2025 Developers Get-Together brings you inspiring tech conversations, real-world insights, hands-on experiences, and powerful networking opportunities that can shape your next big move.
                         </p>
                     </div>
                     <div className="flex flex-wrap items-stretch" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
@@ -55,7 +55,7 @@ Join top developers, engineers, and tech enthusiasts from across Nigeria for an 
                                         </p>
                                     </div>
                                     <Link
-                                        href="/get-ticket"
+                                        href="/get-ticket/bovi"
                                         className="btn btn-1 hover-filled-slide-down w-full text-center rounded-lg overflow-hidden"
                                     >
                                         <span>Book ticket</span>

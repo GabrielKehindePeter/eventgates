@@ -47,13 +47,13 @@ const Testimonials = () => {
                             <div className="grid md:grid-cols-12 grid-cols-1 items-center">
                                 <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" className="col-span-4 bg-LightSkyBlue sm:rounded-br-214 rounded-br-182 sm:rounded-tl-214 rounded-tl-182 relative before:content-[''] before:absolute before:bg-[url('/images/testimonials/quotes.png')] before:w-109 before:h-109 before:-right-10 before:top-32 lg:inline-block hidden">
                                     <Image
-                                        src="/images/hero/john.png"
+                                        src="/images/comedians/mc-3.jpg"
                                         alt="testimonials"
                                         width={0}
                                         height={0}
                                         quality={100}
                                         sizes="100vh"
-                                        className="w-full h-full"
+                                        className="w-full h-full rounded-tl-166 rounded-br-166"
                                     />
                                 </div>
                                 <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000" className="col-span-8 md:ml-28 ml-0">

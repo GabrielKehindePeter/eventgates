@@ -21,7 +21,7 @@ const Hero = () => {
                             data-aos-delay="300"
                             data-aos-duration="1000"
                         >
-                            Schedule your<br /> event with us
+                            Let's sell your<br /> ticket while you focus on planning
                         </h1>
                         <p
                             data-aos="fade-up"
@@ -66,35 +66,36 @@ const Hero = () => {
                     >
                         <div className="bg-ElectricAqua relative rounded-tl-166 rounded-br-166 w-full">
                             <Image
-                                src="/images/hero/john.png"
+                                src="/images/comedians/mmc-2.jpg"
                                 alt="hero"
                                 width={0}
                                 height={0}
                                 quality={100}
                                 sizes="100vh"
-                                className="w-full h-full"
+                                className="w-full h-full rounded-tl-166 rounded-br-166"
                             />
                             <div className="bg-yellow-300 rounded-22 shadow-hero-box py-4 px-5 absolute top-16 -left-20">
-                                <p className="text-lg font-bold text-yellow-900">John Karter</p>
+                                <p className="text-lg font-bold text-yellow-900">US Anchor</p>
                                 <p className="text-base font-medium text-yellow-900 text-center">
-                                    4.8 rating
+                                    Host
                                 </p>
                             </div>
                         </div>
-                        <div className="bg-primary relative rounded-tr-166 rounded-bl-166 w-full mt-32">
+                        <div className=" relative w-full mt-32">
                             <Image
-                                src="/images/hero/maria.png"
+                                // src="/images/hero/maria.png"
+                                src="/images/comedians/mc1.jpg"
                                 alt="hero"
                                 width={0}
                                 height={0}
                                 quality={100}
                                 sizes="100vh"
-                                className="w-full h-full rounded-tr-22"
+                                className="w-full h-full rounded-tr-166 rounded-bl-166"
                             />
                             <div className="bg-Aquamarine rounded-22 shadow-hero-box py-4 px-5 absolute top-24 -right-20 xl:inline-block hidden">
-                                <p className="text-lg font-bold text-green-800">Mariya John</p>
+                                <p className="text-lg font-bold text-green-800">NG Anchor</p>
                                 <p className="text-base font-medium text-green-800 text-center">
-                                    4.9 rating
+                                    Host
                                 </p>
                             </div>
                         </div>
