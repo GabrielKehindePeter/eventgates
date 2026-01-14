@@ -1,8 +1,14 @@
 'use client';
 import React, { useEffect, useState } from "react";
 import TicketSection from "@/components/Home/TicketSection";
+import { useParams } from "next/navigation";
 
 export default function HeroWithCard() {
+
+
+  const params = useParams<{ id: string }>();
+  const id = params?.id;
+  
   const [regularCount, setCount] = useState(0);
   const [vipCount, setVipCount] = useState(0);
   const [otherCount, setOtherCount] = useState(0);

@@ -47,7 +47,8 @@ export const conferences = [
         ],
         speakers: "",
         buttonText: "Book Ticket",
-        buttonLink: "/"
+        buttonLink: "/",
+        id:'edo-in-eko'
     }, // Profile-1
     {
         title: "Franchez the funniest man",
@@ -56,7 +57,8 @@ export const conferences = [
         ],
         speakers: "Busy Mouth",
         buttonText: "Book Ticket",
-        buttonLink: "/"
+        buttonLink: "/",
+        id:'franchez'
     }, // Profile-2
     {
         title: "Frontiers Conference Perspectives",
@@ -66,7 +68,8 @@ export const conferences = [
         ],
         speakers: "Martin Luthar",
         buttonText: "Book Ticket",
-        buttonLink: "/"
+        buttonLink: "/",
+        id:'show'
     }, // Profile-3
     {
         title: "A Focus Conference Initiatives",
@@ -75,7 +78,8 @@ export const conferences = [
         ],
         speakers: "Martin Luthar",
         buttonText: "Book Ticket",
-        buttonLink: "/"
+        buttonLink: "/",
+        id:'bovi'
     }, // Profile-4
     {
         title: "Science and Beyond",
@@ -85,7 +89,8 @@ export const conferences = [
         ],
         speakers: "Reena John & Lorance",
         buttonText: "Book Ticket",
-        buttonLink: "/"
+        buttonLink: "/",
+        id:'casino'
     }, // Profile-5
     {
         title: "Global Event",
@@ -94,7 +99,8 @@ export const conferences = [
         ],
         speakers: "Martin Luthar",
         buttonText: "Book Ticket",
-        buttonLink: "/"
+        buttonLink: "/",
+        id:'edo-pikin-1'
     }, // Profile-6
     {
         title: "Cultural Exchange in the Digital Age",
@@ -103,7 +109,8 @@ export const conferences = [
         ],
         speakers: "Martin Luthar",
         buttonText: "Book Ticket",
-        buttonLink: "/"
+        buttonLink: "/",
+        id:'desk-event'
     }, // Profile-7
     {
         title: "Education for Tomorrow",
@@ -112,7 +119,8 @@ export const conferences = [
         ],
         speakers: "Martin Luthar",
         buttonText: "Book Ticket",
-        buttonLink: "/"
+        buttonLink: "/",
+        id:'evt'
     }, // Profile-8
 ];
 

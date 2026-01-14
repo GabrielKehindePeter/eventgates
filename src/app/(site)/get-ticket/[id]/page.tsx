@@ -1,16 +1,8 @@
 import HeroWithCard from "@/components/HeroWithCard";
 
-export async function generateStaticParams() {
-  return [
-    { id: "1" },
-    { id: "2" },
-    { id: "3" },
-    { id: "4" },
-    { id: "5" },
-    { id: "6" },
-    { id: "7" },
-  ];
-}
+
+// Force Next.js to treat this page as dynamic
+export const dynamic = "force-dynamic";
 
 export default async function Page({
   params,
@@ -19,5 +11,5 @@ export default async function Page({
 }) {
   const { id } = await params;
 
-  return <HeroWithCard id={id} />;
+  return <HeroWithCard />;
 }

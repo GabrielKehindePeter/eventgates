@@ -39,7 +39,7 @@ const Schedules = () => {
               <div className="lg:min-w-40 min-w-max" >
                 <Link
                   // href={conference.buttonLink}
-                  href='/get-ticket'
+                  href={`/get-ticket/${conference.id}`}
                   className="btn_outline btn-2 btn_outline hover-outline-slide-down"
                 >
                   <span>{conference.buttonText}</span>

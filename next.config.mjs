@@ -3,7 +3,7 @@
 const basePath = "";
 const nextConfig = {
 	// build static export output
-	output: "export",
+	// output: "export",
 	// ensure exported pages end up as folders (helps GitHub Pages routing)
 	trailingSlash: true,
 	basePath: basePath || undefined,
