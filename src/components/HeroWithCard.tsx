@@ -13,7 +13,7 @@ export default function HeroWithCard() {
 
   const [isModalOpen, setModalOpen] = useState(false);
 
-  const regularIncrement = () => setCount(prev => prev + 1);
+  const regularIncrement = () => setCount(prev => prev + 1);  
   const regularDecrement = () => setCount(prev => (prev > 0 ? prev - 1 : 0));
 
   const vipIncrement = () => setVipCount(prev => prev + 1);
@@ -85,7 +85,7 @@ export default function HeroWithCard() {
     <div className="pt-36"> {/* replaced inline style with Tailwind */}
       <div className="px-4 lg:max-w-6xl sm:max-w-12 mx-auto">
         {/* hero image */}
-        {id}
+       
         
         <div
           className="w-full flex justify-center bg-blue-600"
@@ -246,7 +246,7 @@ export default function HeroWithCard() {
               role="dialog"
               aria-modal="true"
               aria-labelledby="ticket-summary-title"
-              className="relative z-10 w-full max-w-2xl mx-4 bg-white rounded-lg shadow-2xl overflow-hidden"
+              className="relative z-10 w-full max-w-2xl mx-4 bg-gray-900 text-white rounded-lg shadow-2xl overflow-hidden"
             >
               <div className="p-6">
                 <div className="flex items-start justify-between">
@@ -304,7 +304,7 @@ export default function HeroWithCard() {
                 <div className="mt-6 flex items-center justify-end gap-3">
                   <button
                     onClick={handleCloseModal}
-                    className="px-4 py-2 rounded-md border hover:bg-gray-50"
+                    className="px-4 py-2 rounded-md hover:border bg-red-600 hover:bg-gray-50 hover:text-red-600 hover:border-1 hover:border-red-600"
                   >
                     Cancel
                   </button>
