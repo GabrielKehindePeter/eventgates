@@ -102,14 +102,14 @@ export default function HeroWithCard() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-6 mt-8">
           {/* left (event info) */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-sm text-gray-600">Tue 30 Sep 2025, 2:00 PM</h4>
+            <h4 className="font-semibold text-sm text-gray-500">Tue 30 Sep 2025, 2:00 PM</h4>
             <h2 className="text-2xl md:text-3xl font-bold text-blue-600">
               Edo in Eko with MC Edo Pikin
             </h2>
-            <p className="text-sm md:text-base text-gray-700">
+            <p className="text-sm md:text-base text-gray-500">
               Nigeria's Most Fashionable Model Season 5 — THEMED: THE FUTURISM. A runway modelling contest open to both male and female models.
             </p>
-            <p className="text-sm md:text-base text-gray-700">
+            <p className="text-sm md:text-base text-gray-500">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis asperiores adipisci distinctio pariatur, error reiciendis at corporis vero magni! Vero culpa, ut harum amet odit voluptatum dolores libero qui quibusdam.
             </p>
 
